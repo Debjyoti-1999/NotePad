@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NotePad</title>
+	<script src="https://use.fontawesome.com/351a2514ae.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+	<section id='bar'>
+		<div id="space"></div>
+		<button id='bold'><i class="fa fa-bold"></i></button>
+		<button id="italic"> <i class="fa fa-italic"></i></button>
+		<button id="underline"> <i class="fa fa-underline"></i></button>
+		<button id="strikethrough"><i class="fa fa-strikethrough"></i></button>
+		<button id="justifyLeft"> <i class="fa fa-align-left"></i></button>
+		<button id="justifyCentre"> <i class="fa fa-align-center"></i></button>
+		<button id="justifyRight"> <i class="fa fa-align-right"></i></button>
+		<button id="cut"> <i class="fa fa-cut"></i></button>
+		<button id="copy"> <i class="fa fa-copy"></i></button>
+		<button id="indent"> <i class="fa fa-indent"></i></button>
+		<button id="outdent"> <i class="fa fa-dedent"></i></button>
+		<button id="subscript"> <i class="fa fa-subscript"></i></button>
+		<button id="superscript"> <i class="fa fa-superscript"></i></button>
+		<button id="undo"> <i class="fa fa-undo"></i></button>
+		<button id="redo"> <i class="fa fa-repeat"></i></button>
+		<button id="insertUnorderedList"> <i class="fa fa-list-ul"></i></button>
+		<button id="insertOrderedList"> <i class="fa fa-list-ol"></i></button>
+		<select id="headings">
+			<option value="H1">H1</option>
+			<option value="H2">H2</option>
+			<option value="H3">H3</option>
+			<option value="H4">H4</option>
+			<option value="H5">H5</option>
+			<option value="H6">H6</option>
+		</select>
+		<button id="HR">HR</button>
+		<button id="link"><i class="fa fa-link"></i></button>
+		<button id="unlink"><i class="fa fa-unlink"></i></button>
+		<select id="font">
+			<option value="Arial">Arial</option>
+			<option value="Comic Sans Ms">Comic Sans Ms</option>
+			<option value="Courier">Courier</option>
+			<option value="Georgia"> Georgia</option>
+			<option value="Tahoma">Tahoma</option>
+			<option value="Times">Times</option>
+			<option value="Times New Roman">Times New Roman</option>
+			<option value="Verdana">Verdana</option>
+			<option value="cursive">Cursive</option>
+		</select>
+		<select id="size">
+			<option value='1'>1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+		</select>
+		<br>
+		<div id="lowerSection">
+			Fore Color:<input type="color" id="forecolor"> 
+			BackGround Color:<input type="color" id="backcolor">
+			<button id='Toggle'>Toggle Edit</button>
+		    <button id="selectAll">Select All</button>
+		</div>
+	</section>
+	<iframe id="if" name="textArea" ></iframe>
+<script src="function.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#bar{
+	background-color:rgb(175,167,167);
+	width:1000px;
+	border-radius: 10px 10px 0 0;
+	padding-left: 3px;
+}
+#space{
+	height: 8px;
+}
+#if{
+	border: 3px solid rgb(175,167,167);
+	border-radius: 0 0 2px 2px;
+	width:997px;
+	height:500px;
+}
+#lowersection{
+
+}
+button{
+	border-radius: 5px; 
+}
+button:hover{
+	background-color: rgb(140,140,140);
+}
